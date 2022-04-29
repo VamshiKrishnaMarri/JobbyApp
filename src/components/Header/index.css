@@ -1,0 +1,94 @@
+.nav-header {
+  background-color: #202020;
+  height: 14vh;
+  background-size: cover;
+  width: 100%;
+  padding-top: 18px;
+}
+.nav-content {
+  display: flex;
+}
+.nav-menu {
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: flex;
+  }
+}
+
+.nav-item {
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+  margin-left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo {
+  height: 45px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.logout-button {
+  color: white;
+  background-color: #4f46e5;
+  height: 30px;
+  width: 85px;
+  border-width: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 8px;
+  margin-left: 25px;
+}
+.nav-lg-container {
+  display: none;
+  justify-content: space-evenly;
+  width: 1500px;
+}
+@media screen and (min-width: 768px) {
+  .nav-lg-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1500px;
+  }
+}
+.nav-md-container {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .nav-md-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+  }
+}
+.home-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.brief-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.nav-icon {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+}
